@@ -11,3 +11,23 @@ body {
   color: aliceblue;
   padding: 15px;
 }
+.body {
+  margin-top: 30px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.brand-info {
+  margin: 25px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 50px;
+}
+
+.par {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
