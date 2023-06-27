@@ -1,19 +1,31 @@
 {
-  "posts": [
+  "katalog": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "for": "woman",
+      "title": "СЕРЕБРЯНЫЕ ЖЕНСКИЕ ЧАСЫ EGO",
+      "price": "21 750",
+      "description": "Самые популярные женские хронографы НИКА представлены в новом виде! Теперь – с перламутровыми циферблатами, контрастными счетчиками и быстросъемными ремешками с матовым жемчужным блеском.",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/1f2/350_350_1/uuwjsr86is39lfz95gvl3qnd2t426i28.jpg"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "for": "woman",
+      "title": "СЕРЕБРЯНЫЕ ЖЕНСКИЕ ЧАСЫ LADY",
+      "price": "10 875",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/4f2/350_350_1/3vcnf68xmzh8hnr7q3m22gyyttttmtf1.jpg",
+      "description": "Женские серебряные часы представлены в нескольких оттенках: перламутр, антрацит, махагон. Римские цифры перемежаются утонченными часовыми делениями. Удлиненные ушки, сливающиеся с корпусом, превращают часы в целую планету с собственной орбитой!",
+      "material": "серебро"
+    },
+    {
+      "id": 3,
+      "for": "woman",
+      "title": "ЗОЛОТЫЕ ЖЕНСКИЕ ЧАСЫ VIVA 0311.2.1.16H",
+      "price": "41 625",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/eed/1000_1000_1d7a58ff99b324185ccb5ad5dfbdb5e85/1co0v33oq4m5v72w0x81nxizk1n7zo2w.jpg",
+      "description": "У каждой леди должно быть маленькое черное платье… и маленькие золотые часики! Безукоризненный циферблат защищен устойчивым к царапинам минеральным стеклом с сапфировым напылением.",
+      "material": "серебро"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }
