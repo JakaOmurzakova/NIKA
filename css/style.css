@@ -41,7 +41,6 @@ body {
 }
 
 /* <p class="search">Поиск</p> */
-
 .logo {
   display: flex;
   flex-direction: row;
@@ -83,6 +82,14 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-around;
+}
+
+.whatches {
+  margin: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
 .footer {
   display: flex;
   flex-direction: row;
