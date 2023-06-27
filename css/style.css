@@ -89,4 +89,17 @@ body {
 .img2 {
   margin-top: 20px;
   width: 195px;
+<<<<<<< Updated upstream
+=======
+}
+.back {
+  margin: 30px;
+}
+
+.category {
+  height: 70px;
+  display: flex;
+  align-items: stretch;
+  justify-content: space-around;
+>>>>>>> Stashed changes
 }

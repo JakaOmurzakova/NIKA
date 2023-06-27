@@ -4,7 +4,7 @@ const card = document.querySelector(".card");
 
 async function render() {
   const res = await fetch(API);
-  const data = res.json();
+  const data = await res.json();
 
   console.log(data);
 }
