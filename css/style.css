@@ -1,0 +1,13 @@
+body {
+  margin: 0 auto;
+  font-size: 22px;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #07263b;
+  height: 70px;
+  color: aliceblue;
+  padding: 15px;
+}
