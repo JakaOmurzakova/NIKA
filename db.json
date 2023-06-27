@@ -1,19 +1,148 @@
 {
-  "posts": [
+  "katalog": [
     {
       "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "for": "woman",
+      "title": "СЕРЕБРЯНЫЕ ЖЕНСКИЕ ЧАСЫ EGO",
+      "price": "21 750",
+      "description": "Самые популярные женские хронографы НИКА представлены в новом виде! Теперь – с перламутровыми циферблатами, контрастными счетчиками и быстросъемными ремешками с матовым жемчужным блеском.",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/1f2/350_350_1/uuwjsr86is39lfz95gvl3qnd2t426i28.jpg"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "id": 2,
+      "for": "woman",
+      "title": "СЕРЕБРЯНЫЕ ЖЕНСКИЕ ЧАСЫ LADY",
+      "price": "10 875",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/4f2/350_350_1/3vcnf68xmzh8hnr7q3m22gyyttttmtf1.jpg",
+      "description": "Женские серебряные часы представлены в нескольких оттенках: перламутр, антрацит, махагон. Римские цифры перемежаются утонченными часовыми делениями. Удлиненные ушки, сливающиеся с корпусом, превращают часы в целую планету с собственной орбитой!",
+      "material": "серебро"
+    },
+    {
+      "id": 3,
+      "for": "woman",
+      "title": "ЗОЛОТЫЕ ЖЕНСКИЕ ЧАСЫ VIVA 0311.2.1.16H",
+      "price": "41 625",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/eed/1000_1000_1d7a58ff99b324185ccb5ad5dfbdb5e85/1co0v33oq4m5v72w0x81nxizk1n7zo2w.jpg",
+      "description": "У каждой леди должно быть маленькое черное платье… и маленькие золотые часики! Безукоризненный циферблат защищен устойчивым к царапинам минеральным стеклом с сапфировым напылением.",
+      "material": "серебро"
+    },
+    {
+      "id": 4,
+      "for": "woman",
+      "price": "135 750",
+      "title": "ЗОЛОТЫЕ ЖЕНСКИЕ ЧАСЫ SLIMLINE 0111.2.1.81A",
+      "material": "золото",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/372/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/jmspg17545qr5rb19fw2qti91wwzml0j.jpg",
+      "description": "Тонкий корпус в женских золотых часах – один из самых популярных европейских трендов. Особого внимания заслуживает оригинальный дизайн ушек с тремя стройными рядами фианитов."
+    },
+    {
+      "id": 5,
+      "title": "BICOLOR ЖЕНСКИЕ ЧАСЫ LADY 1310.0.19.87B",
+      "description": "Женские часы стали еще более яркими благодаря новой уникальной технологии! BICOLOR – это способ производства двухцветного драгоценного корпуса путем прочного соединения отдельных элементов из золота и серебра.",
+      "for": "woman",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/83a/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/5gydv5r3hu494gusybgu0i8rrvpxty9a.jpg",
+      "price": "31 350"
+    },
+    {
+      "id": 6,
+      "title": "СЕРЕБРЯНЫЕ ЖЕНСКИЕ ЧАСЫ VIVA 0338.0.9.86",
+      "description": "Миниатюрные серебряные часы для создания нежного и романтичного образа. За индикацию времени отвечают римские цифры и сияющие кристаллы. Еще больше блеска обещает шикарная алмазная гравировка на боковых гранях корпуса.",
+      "for": "woman",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/f28/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/n78nrrnnd44vpfln7ordpl2bvgdjzu1p.jpg",
+      "price": "7 425"
+    },
+    {
+      "id": 7,
+      "title": "ЗОЛОТЫЕ МУЖСКИЕ ЧАСЫ НИКА EXCLUSIVE 1102.0.1.125",
+      "description": "НИКА Exclusive DRAGON – мужские часы, раскрывающие внутреннюю силу. На месте циферблата красуется китайский дракон, каждая чешуйка которого выгравирована вручную.",
+      "material": "золото",
+      "for": "man",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/c81/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/c8177df77d106b5111cd257d319e988d.jpg",
+      "price": "1 100 000"
+    },
+    {
+      "id": 8,
+      "description": "Самый точный хронограф компании НИКА фиксирует показания секундомера с точностью до 1/20 секунды.",
+      "for": "man",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/9f6/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/9f6921138fd0086cae18cafe5d7750c5.jpg",
+      "price": "33 225",
+      "title": "СЕРЕБРЯНЫЕ МУЖСКИЕ ЧАСЫ EGO 1898.0.9.51A"
+    },
+    {
+      "id": "9",
+      "description": "Респектабельный мужской хронограф с апертурой даты станет идеальным партнером в деловой и повседневной жизни. Часы комплектуются широким серебряным браслетом, благодаря которому квадратный корпус четко прилегает к руке.",
+      "for": "man",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/2f1/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/db8htgman0nb3qwztznvzf28n3rjrfoc.jpg",
+      "price": "74 250",
+      "title": "СЕРЕБРЯНЫЕ МУЖСКИЕ ЧАСЫ CELEBRITY 1064.0.9.83H.01"
+    },
+    {
+      "id": "10",
+      "title": "СЕРЕБРЯНЫЕ МУЖСКИЕ ЧАСЫ КАЗИНО 1198B.0.9.73A",
+      "description": "Талантливый игрок всегда выглядит спокойным, даже если в душе у него бушует ураган страстей. На лице играет уверенная улыбка, а внешний вид всегда безупречен. ",
+      "for": "man",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/98b/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/zve4zr022nfiqhhw95fq907uyl9tor7v.jpg",
+      "price": "36 000"
+    },
+    {
+      "id": "11",
+      "description": "Изысканные мужские часы из розового золота. Прозрачная задняя крышка демонстрирует работу автоматического механизма, позволяя владельцу часов приоткрыть завесу тайны времени.",
+      "for": "man",
+      "material": "золото",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/e93/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/532axpntf3cvg960xo6fukgls1slddb8.jpg",
+      "price": "279 000",
+      "title": "ЗОЛОТЫЕ МУЖСКИЕ ЧАСЫ CELEBRITY 1093.0.1.41A"
+    },
+    {
+      "id": "12",
+      "description": "Хронограф – это в первую очередь стильно, а потом уже функционально. Бочка-хронограф – очень редкое и интересное явление в часовом мире.",
+      "for": "man",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/c75/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/57bz5wbgyl3xfbazqg14cnxgujk0xogi.jpg",
+      "price": "31 150",
+      "title": "СЕРЕБРЯНЫЕ МУЖСКИЕ ЧАСЫ CELEBRITY 1264.0.9.23A"
+    },
+    {
+      "id": "13",
+      "title": "ЗОЛОТЫЕ ЖЕНСКИЕ ЧАСЫ SLIMLINE 0111.2.1.81",
+      "description": "Тонкий корпус в женских золотых часах – один из самых популярных европейских трендов. Особого внимания заслуживает оригинальный дизайн ушек с тремя стройными рядами фианитов.",
+      "for": "woman",
+      "material": "золото",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/372/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/jmspg17545qr5rb19fw2qti91wwzml0j.jpg",
+      "price": "135 750"
+    },
+    {
+      "id": "14",
+      "description": "CELEBRITY LOVE – часы, которые всегда показывают время любви. Тонкий корпус часов выполнен из нежно-розового или медово-желтого золота 585º, ушки украшены 12 изящными бриллиантами.",
+      "for": "woman",
+      "material": "золото",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/ae3/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/ssmikxn9truqq0ohltjmsiavoy223qva.jpg",
+      "price": "230 650",
+      "title": "ЗОЛОТЫЕ ЖЕНСКИЕ ЧАСЫ CELEBRITY 1284.1.1.86A"
+    },
+    {
+      "id": "15",
+      "description": "Мужские часы с «открытым сердцем» (open heart) демонстрируют первоклассную работу швейцарского механизма. Гильошированный циферблат объединяет в себе плавные округлые линии и четкие геометрические углы. ",
+      "for": "man",
+      "material": "серебро",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/9b1/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/rp1ljxuyy21sia5gaokan6skr7yz6ukw.jpg",
+      "price": "385 000",
+      "title": "СЕРЕБРЯНЫЕ МУЖСКИЕ ЧАСЫ НИКА EXCLUSIVE 1102.0.9.55A"
+    },
+    {
+      "id": "16",
+      "description": "Женские золотые часы с тонким корпусом и еще более тонким намеком на безупречный стиль их обладательницы. Лаконичные циферблаты представлены в классических оттенках – черный, белый, шампань, шоколад.",
+      "for": "woman",
+      "material": "золото",
+      "photo": "https://nikawatches.ru/upload/resize_cache/iblock/822/300_300_2d7a58ff99b324185ccb5ad5dfbdb5e85/3hjo5b4u2lo36xtgjc71xnf5r4ymg7tk.jpg",
+      "price": "88 000",
+      "title": "ЗОЛОТЫЕ ЖЕНСКИЕ ЧАСЫ SLIMLINE 0102A.0.1.14B"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

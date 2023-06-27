@@ -1,6 +1,6 @@
 body {
   margin: 0 auto;
-  font-size: 22px;
+  font-size: 24px;
 }
 .navbar {
   background-color: #07263b;
@@ -15,6 +15,33 @@ body {
 .btn {
   border-radius: 15px;
 }
+.navbar a {
+  margin-bottom: 15px;
+  margin-left: 15px;
+  text-decoration: none;
+  color: aliceblue;
+}
+#btn {
+  margin-bottom: 15px;
+}
+.dropdown {
+  margin-bottom: 15px;
+}
+.seach {
+  margin-right: 20px;
+}
+
+.search {
+  background-color: white;
+  transition: background-color 0.3s ease;
+}
+
+.search:hover {
+  background-color: lightgray;
+}
+
+/* <p class="search">Поиск</p> */
+
 .logo {
   display: flex;
   flex-direction: row;
@@ -56,4 +83,24 @@ body {
   display: flex;
   align-items: stretch;
   justify-content: space-around;
+.footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  background-color: #07263b;
+  color: aliceblue;
+}
+.left,
+.center,
+.right {
+  display: flex;
+  flex-direction: column;
+  margin-top: 25px;
+}
+.img1 {
+  width: 200px;
+}
+.img2 {
+  margin-top: 20px;
+  width: 195px;
 }
