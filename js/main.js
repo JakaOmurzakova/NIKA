@@ -6,12 +6,13 @@ const gold = document.querySelector("#gold");
 const man = document.querySelector("#man");
 const woman = document.querySelector("#woman");
 
+const limit = 6;
 let filter = "";
 let gender = "";
 
 async function render() {
   const res = await fetch(
-    `${API}?gender_like=${gender}&&material_like=${filter}&`
+    `${API}?gender_like=${gender}&material_like=${filter}&_limit=${limit}`
   );
   const data = await res.json();
 
